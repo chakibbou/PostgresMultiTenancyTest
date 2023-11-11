@@ -36,7 +36,7 @@ public class PostgresTenant {
     }
 
     public String getSchema() {
-        return schema;
+        return String.format("\"%s\"", this.schema);
     }
 
     public PostgresTenant setSchema(String schema) {
