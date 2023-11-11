@@ -1,8 +1,8 @@
-package com.smt.springmultitenancy.infrastructure;
+package com.smt.infrastructure;
 
-import com.smt.springmultitenancy.infrastructure.database.DatabaseProperties;
-import com.smt.springmultitenancy.infrastructure.database.mongo.MongoTenant;
-import com.smt.springmultitenancy.infrastructure.database.postgres.PostgresTenant;
+import com.smt.infrastructure.database.mongo.MongoTenant;
+import com.smt.infrastructure.database.DatabaseProperties;
+import com.smt.infrastructure.database.postgres.PostgresTenant;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 import java.util.List;

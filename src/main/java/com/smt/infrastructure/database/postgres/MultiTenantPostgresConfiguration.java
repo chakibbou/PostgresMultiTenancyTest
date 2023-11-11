@@ -1,6 +1,6 @@
-package com.smt.springmultitenancy.infrastructure.database.postgres;
+package com.smt.infrastructure.database.postgres;
 
-import com.smt.springmultitenancy.infrastructure.TenantProperties;
+import com.smt.infrastructure.TenantProperties;
 import io.r2dbc.pool.ConnectionPool;
 import io.r2dbc.pool.ConnectionPoolConfiguration;
 import io.r2dbc.postgresql.PostgresqlConnectionConfiguration;

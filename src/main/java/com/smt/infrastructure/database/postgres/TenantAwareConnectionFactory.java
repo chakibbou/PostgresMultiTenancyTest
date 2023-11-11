@@ -1,4 +1,4 @@
-package com.smt.springmultitenancy.infrastructure.database.postgres;
+package com.smt.infrastructure.database.postgres;
 
 import io.r2dbc.spi.ConnectionFactoryMetadata;
 import org.springframework.r2dbc.connection.lookup.AbstractRoutingConnectionFactory;
@@ -6,7 +6,7 @@ import reactor.core.publisher.Mono;
 
 import java.util.function.Supplier;
 
-import static com.smt.springmultitenancy.infrastructure.database.TenantContext.TENANT_ID;
+import static com.smt.infrastructure.database.TenantContext.TENANT_ID;
 
 public class TenantAwareConnectionFactory extends AbstractRoutingConnectionFactory {
 

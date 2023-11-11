@@ -1,4 +1,4 @@
-package com.smt.springmultitenancy.infrastructure.database;
+package com.smt.infrastructure.database;
 
 import reactor.util.context.Context;
 

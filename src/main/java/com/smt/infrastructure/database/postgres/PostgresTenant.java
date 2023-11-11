@@ -1,4 +1,4 @@
-package com.smt.springmultitenancy.infrastructure.database.postgres;
+package com.smt.infrastructure.database.postgres;
 
 public class PostgresTenant {
     private String host;

@@ -1,4 +1,4 @@
-package com.smt.springmultitenancy.infrastructure.database.mongo;
+package com.smt.infrastructure.database.mongo;
 
 public class MongoTenant {
     private String uri;

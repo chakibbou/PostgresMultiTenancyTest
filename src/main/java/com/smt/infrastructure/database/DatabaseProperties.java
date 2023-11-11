@@ -1,7 +1,7 @@
-package com.smt.springmultitenancy.infrastructure.database;
+package com.smt.infrastructure.database;
 
-import com.smt.springmultitenancy.infrastructure.database.mongo.MongoTenant;
-import com.smt.springmultitenancy.infrastructure.database.postgres.PostgresTenant;
+import com.smt.infrastructure.database.mongo.MongoTenant;
+import com.smt.infrastructure.database.postgres.PostgresTenant;
 
 import java.util.Map;
 

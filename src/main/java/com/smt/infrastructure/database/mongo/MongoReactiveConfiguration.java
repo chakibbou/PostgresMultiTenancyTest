@@ -1,11 +1,11 @@
-package com.smt.springmultitenancy.infrastructure.database.mongo;
+package com.smt.infrastructure.database.mongo;
 
 import com.mongodb.ConnectionString;
 import com.mongodb.MongoClientSettings;
 import com.mongodb.reactivestreams.client.MongoClient;
 import com.mongodb.reactivestreams.client.MongoClients;
 import com.mongodb.reactivestreams.client.MongoDatabase;
-import com.smt.springmultitenancy.infrastructure.TenantProperties;
+import com.smt.infrastructure.TenantProperties;
 import jakarta.annotation.PostConstruct;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
@@ -17,7 +17,7 @@ import reactor.core.publisher.Mono;
 import java.util.HashMap;
 import java.util.Map;
 
-import static com.smt.springmultitenancy.infrastructure.database.TenantContext.TENANT_ID;
+import static com.smt.infrastructure.database.TenantContext.TENANT_ID;
 
 @EnableConfigurationProperties({TenantProperties.class})
 @Configuration

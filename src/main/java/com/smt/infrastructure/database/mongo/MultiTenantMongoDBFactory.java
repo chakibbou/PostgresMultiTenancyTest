@@ -1,4 +1,4 @@
-package com.smt.springmultitenancy.infrastructure.database.mongo;
+package com.smt.infrastructure.database.mongo;
 
 import com.mongodb.reactivestreams.client.MongoClient;
 import com.mongodb.reactivestreams.client.MongoDatabase;

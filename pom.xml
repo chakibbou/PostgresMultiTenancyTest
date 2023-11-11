@@ -9,9 +9,8 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.smt</groupId>
-	<artifactId>SpringMultiTenancy</artifactId>
+	<artifactId>PostgresMultiTenancy</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>SpringMultiTenancy</name>
 	<description>SpringMultiTenancy</description>
 	<properties>
 		<java.version>17</java.version>
@@ -20,6 +19,8 @@
 		<com.fasterxml.jackson.version>2.14.2</com.fasterxml.jackson.version>
 		<version.io.projectreactor.reactor-core>3.5.4</version.io.projectreactor.reactor-core>
 		<version.io.r2dbc.r2dbc-postgresql>0.8.13.RELEASE</version.io.r2dbc.r2dbc-postgresql>
+		<version.com.github.f4b6a3.ulid-creator>5.1.0</version.com.github.f4b6a3.ulid-creator>
+		<version.org.apache.commons.commons-lang3>3.12.0</version.org.apache.commons.commons-lang3>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -34,6 +35,17 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-webflux</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.github.f4b6a3</groupId>
+			<artifactId>ulid-creator</artifactId>
+			<version>${version.com.github.f4b6a3.ulid-creator}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>${version.org.apache.commons.commons-lang3}</version>
 		</dependency>
 		<dependency>
 			<groupId>io.micrometer</groupId>
